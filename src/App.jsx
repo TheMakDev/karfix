@@ -8,6 +8,7 @@ import Services from './Pages/Services'
 import Navbar from './Component/Navbar'
 import Contact from './Pages/Contact'
 import Quotes from './Pages/Quotes'
+import Footer from './Component/Footer'
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
         <Route path='/contact' element={<Contact/>} />
         <Route path='/get-quote' element={<Quotes/>} />
       </Routes>
+
+      <Footer/>
     </div>
   )
 }
