@@ -4,7 +4,7 @@ import tireman from '../assets/tireman.webp';
 
 const Profession = () => {
   return (
-    <section className="bg-gray-300 py-10 px-4">
+    <section className="bg-gray-300 py-10 px-4 rounded-b-4xl">
       <div className="max-w-7xl mx-auto grid gap-6 md:grid-cols-[1fr_auto_1fr] items-stretch">
 
 
