@@ -4,11 +4,11 @@ import car from '../assets/car.jpeg';
 
 const Feature = ({ Icon, title, description }) => (
   <div className="flex items-start gap-4">
-    <div className="bg-gray-100 text-blue-600 p-4 rounded-xl text-2xl shadow-md">
+    <div className="bg-gray-100 text-[#f7931e] p-4 rounded-xl text-2xl shadow-md">
       <Icon />
     </div>
     <div>
-      <h4 className="font-bold text-gray-900 text-base sm:text-lg">{title}</h4>
+      <h4 className="font-bold text-[#232755] text-base sm:text-lg">{title}</h4>
       <p className="text-gray-600 text-sm sm:text-base">{description}</p>
     </div>
   </div>
@@ -20,14 +20,14 @@ const ChooseUs = () => {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
        
         <div className="flex-1 text-center lg:text-left">
-          <p className="text-sm font-semibold text-blue-600 mb-2 uppercase">/Why choose us?/</p>
-          <h2 className="text-4xl font-extrabold mb-4">
-            What makes us <span className="text-blue-600">different?</span>
+          <p className="text-sm font-semibold text-[#f7931e] mb-2 uppercase">/Why choose us?/</p>
+          <h2 className="text-[#232755] text-4xl font-extrabold mb-4">
+            What makes us <span className="text-[#f7931e]">different?</span>
           </h2>
           <p className="text-gray-600 text-base mb-6">
             We carefully screen all of our cleaners, so you can rest assured that your home would receive the absolute highest quality of service providing. Ultricies tristique nulla aliquet enim tortor at auctor urna nunc.
           </p>
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
+          <button className="bg-[#232755] text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
             Know More →
           </button>
         </div>

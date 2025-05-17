@@ -17,7 +17,7 @@ const Hero = () => {
         <p className="text-white font-bold text-base sm:text-xl md:text-2xl mt-6 sm:mt-8">
           Hire us! we are professional cleaning company offering service
         </p>
-        <button className="bg-blue-800 px-6 py-3 sm:px-8 sm:py-4 text-white rounded-full mt-6 sm:mt-8 font-semibold text-base sm:text-xl">
+        <button className="bg-[#232755] px-6 py-3 sm:px-8 sm:py-4 text-white rounded-full mt-6 sm:mt-8 font-semibold text-base sm:text-xl">
           Our service
         </button>
       </div>

@@ -4,7 +4,7 @@ import tireman from '../assets/tireman.webp';
 
 const Profession = () => {
   return (
-    <section className="bg-gray-300 py-10 px-4 rounded-b-4xl">
+    <section className="bg-gray-300 py-10 px-4 ">
       <div className="max-w-7xl mx-auto grid gap-6 md:grid-cols-[1fr_auto_1fr] items-stretch">
 
 
@@ -14,7 +14,7 @@ const Profession = () => {
         >
           <div className="absolute inset-0 bg-black/30 z-0" />
           <div className="relative z-10">
-            <p className="text-white font-semibold mb-1">/ FREE SERVICES /</p>
+            <p className="text-[#f7931e] font-semibold mb-1">/ FREE SERVICES /</p>
             <h2 className="text-2xl font-bold mb-4 text-white">Free Evaluation Of Your Car Service</h2>
           </div>
           <div className='bg-white rounded-t-full p-2 absolute bottom-0 right-10'>
@@ -29,7 +29,7 @@ const Profession = () => {
 
 
         <div className="flex justify-center items-center">
-          <div className="bg-blue-600 text-white rounded-3xl overflow-hidden shadow-md px-4 py-6 w-full md:w-[200px] flex flex-col justify-center items-center h-[300px]">
+          <div className="bg-[#f7931e] text-white rounded-3xl overflow-hidden shadow-md px-4 py-6 w-full md:w-[200px] flex flex-col justify-center items-center h-[300px]">
             <h2 className="text-5xl font-extrabold mb-2">
               520<span className="text-white text-4xl">+</span>
             </h2>
@@ -49,7 +49,7 @@ const Profession = () => {
             <h2 className="text-2xl font-bold mb-8 text-white">Easy Booking & Fast Communication</h2>
           </div>
           <div className='bg-white p-2 absolute right-0 bottom-0 rounded-tl-2xl'>
-              <button className="bg-blue-600 font-bold text-white px-6 py-3 rounded-full text-sm flex items-center gap-1">
+              <button className="bg-[#f7931e] font-bold text-white px-6 py-3 rounded-full text-sm flex items-center gap-1">
               Book Now
             </button>
           </div>
