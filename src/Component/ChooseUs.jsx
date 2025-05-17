@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaTools, FaClock, FaUndoAlt, FaCogs } from 'react-icons/fa';
-import car from '../assets/car.jpeg'; 
+import car from '../assets/about-img-01.webp'; 
 
 const Feature = ({ Icon, title, description }) => (
   <div className="flex items-start gap-4">
