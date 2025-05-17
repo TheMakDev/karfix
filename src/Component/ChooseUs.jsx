@@ -5,7 +5,7 @@ import car from '../assets/car.jpeg';
 const Feature = ({ Icon, title, description }) => (
   <div className="flex items-start gap-4">
     <div className="bg-gray-100 text-[#f7931e] p-4 rounded-xl text-2xl shadow-md">
-      <Icon />
+      {Icon && <Icon />}
     </div>
     <div>
       <h4 className="font-bold text-[#232755] text-base sm:text-lg">{title}</h4>
