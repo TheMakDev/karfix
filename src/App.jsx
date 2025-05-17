@@ -12,7 +12,10 @@ import Quotes from './Pages/Quotes'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <div className='mb-20'>
+          <Navbar />
+      </div>
+      
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>}/>
