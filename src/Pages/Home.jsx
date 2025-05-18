@@ -5,6 +5,7 @@ import Services from '../Component/Services';
 import ChooseUs from '../Component/chooseUs';
 import Story from '../Component/Story';
 import Counter from '../Component/Counter';
+import Testimonial from '../Component/Testimonial';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services/>
       <Story/>
       <Counter/>
+      <Testimonial/>
     </div>
   );
 };

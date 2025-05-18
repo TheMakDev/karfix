@@ -31,7 +31,7 @@ const stats = [
 
 const Counter = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false, 
+    triggerOnce: false,
     threshold: 0.4,
   });
 
@@ -40,7 +40,7 @@ const Counter = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center max-w-7xl mx-auto px-4">
         {stats.map((stat) => (
           <div key={stat.id}>
-            <h2 className="text-5xl font-bold">
+            <h2 className="text-7xl md:text-8xl font-bold flex justify-center items-baseline">
               {inView ? (
                 <CountUp
                   key={`${stat.id}-${inView}`} 
@@ -50,7 +50,9 @@ const Counter = () => {
               ) : (
                 0
               )}
-              <span className="text-[#f7931e]">{stat.letter}</span>
+              <span className="ml-1 text-7xl md:text-8xl text-[#f7931e]">
+                {stat.letter}
+              </span>
             </h2>
             <p className="mt-4 text-gray-700 text-sm max-w-xs mx-auto text-left">
               {stat.description}
