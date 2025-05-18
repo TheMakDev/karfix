@@ -6,6 +6,7 @@ import ChooseUs from '../Component/chooseUs';
 import Story from '../Component/Story';
 import Counter from '../Component/Counter';
 import Testimonial from '../Component/Testimonial';
+import Post from '../Component/Post';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Story/>
       <Counter/>
       <Testimonial/>
+      <Post/>
     </div>
   );
 };

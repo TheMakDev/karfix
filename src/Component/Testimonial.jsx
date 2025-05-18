@@ -35,10 +35,11 @@ export default function TestimonialCarousel() {
   return (
     <section className="px-4 py-10 bg-[#efefefcf] shadow-2xl">
       <div className="max-w-screen-lg mx-auto">
-        <h2 className="text-2xl font-bold mb-6 text-[#f7931e]">/TESTIMONIALS/</h2>
-        <h2 className="text-7xl font-bold mb-4">
-          What our <span className="text-[#f7931e] ">clients say</span> <br />about us
-        </h2>
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 text-[#f7931e]">/TESTIMONIALS/</h2>
+<h2 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4">
+  What our <span className="text-[#f7931e]">clients say</span> <br /> about us
+</h2>
+
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={30}
