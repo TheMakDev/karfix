@@ -29,7 +29,7 @@ const Header = () => {
             <p className="text-sm text-center text-black line-height-6">
               pbminfotech@gmail.com <br /> support@pbminfotech.com
             </p>
-             <FaEnvelope className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 items-left" />q
+             <FaEnvelope className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 items-left" />
           </div>
            <div className="bg-[#fff] border-3 text-[#f7931e] rounded-3xl overflow-hidden shadow-md px-6 py-8 w-full md:w-[400px] flex flex-col justify-center items-center h-[300px]">
             <h2 className="text-4xl text-black font-extrabold mb-2">
@@ -38,7 +38,7 @@ const Header = () => {
             <p className="text-sm text-center text-black line-height-6">
               85 Preston, Inglewood, Maine 98380, Hoofddorp Noord- 2132
             </p>
-             <FaMapMarkerAlt className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 items-left" />q
+             <FaMapMarkerAlt className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 items-left" />
           </div>
            <div className="bg-[#fff] border-3 text-[#f7931e] rounded-3xl overflow-hidden shadow-md px-6 py-8 w-full md:w-[400px] flex flex-col justify-center items-center h-[300px]">
             <h2 className="text-4xl text-black font-extrabold mb-2">
@@ -47,7 +47,7 @@ const Header = () => {
             <p className="text-sm text-center text-black line-height-6">
              Phone: +001 236-895-4732 <br /> Mobile: +9123 895-4732-236
             </p>
-             <FaPhone className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 items-left" />q
+             <FaPhone className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 items-left" />
           </div>
            <div className="bg-[#fff] border-3 text-[#f7931e] rounded-3xl overflow-hidden shadow-md px-6 py-8 w-full md:w-[400px] flex flex-col justify-center items-center h-[300px]">
             <h2 className="text-4xl text-black font-extrabold mb-2">
@@ -56,7 +56,7 @@ const Header = () => {
             <p className="text-sm text-center text-black line-height-6">
             Mon to Fri - 09:00am To 06:00pm <br /> Saturday to Sunday - Closed
             </p>
-             <FaRegCalendarAlt className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 justify-left items-left" />q
+             <FaRegCalendarAlt className="text-[#f7931e] md:w-[80px] h-[40px] mt-6 justify-left items-left" />
           </div>
       </div>    
     </div>
