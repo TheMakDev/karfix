@@ -1,9 +1,26 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../Component/Hero';
+import ServiceSection from '../Component/ServiceSection'; 
+import bg from '../assets/slide-a-01.webp'
 
-const Portfolio = () => {
+const Blog = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <div>
+      <div
+                  className="relative flex flex-col justify-center h-100 bg-cover bg-center "
+                  style={{ backgroundImage: `url(${bg})` }}>
+                 
+                  <div className="absolute inset-0 bg-black/50 z-0" />
+            
+                  <div className="relative z-10 px-4 sm:px-8 md:px-16">
+                    <h1 className="text-white font-bold text-4xl sm:text-6xl lg:text-8xl text-center">
+                       Portfolio Page
+                    </h1>
+                  </div>
+                </div>
+      <ServiceSection />
+    </div>
+  );
+};
 
-export default Portfolio
+export default Blog;
