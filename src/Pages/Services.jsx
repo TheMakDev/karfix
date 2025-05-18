@@ -19,9 +19,12 @@ const Services = () => {
                 alt={item.title}
                 className="w-full h-full object-cover rounded-2xl"
               />
-              <button className="absolute bottom-4 right-4 bg-blue-600 text-white rounded-full p-2 shadow-md">
+              <div className='bg-white p-7 absolute bottom-0 rounded-t-full right-6'>
+                  <button className="absolute bottom-3 right-3 bg-blue-600 text-white rounded-full p-2 shadow-md">
                 <FaArrowRight size={18} />
               </button>
+              </div>
+              
             </div>
 
             <div className="p-4 -mt-4 bg-white rounded-b-2xl">
