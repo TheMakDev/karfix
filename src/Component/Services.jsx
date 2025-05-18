@@ -11,30 +11,29 @@ const services = [
     title: "Engine Service",
     description: "Engine oil is an integral part of your car engine’s system help to maintain the temperatures of the...",
     icon: <FaTools size={24} className="text-blue-600" />,
-    image: img1
+    image: img1,
   },
   {
     title: "Interior Cleaning",
     description: "First we dry vacuum the interiors and then we use our steam cleaner along with dry foam chemicals.",
     icon: <FaPumpSoap size={24} className="text-blue-600" />,
-    image: img2
+    image: img2,
   },
   {
     title: "Brake Service",
     description: "Brake repair and maintenance need to be inspected regularly and serviced when required or dirt buildup...",
     icon: <FaCarCrash size={24} className="text-blue-600" />,
-    image: img3
+    image: img3,
   },
   {
     title: "Interior Cleaning",
     description: "First we dry vacuum the interiors and then we use our steam cleaner along with dry foam chemicals.",
     icon: <FaPumpSoap size={24} className="text-blue-600" />,
-    image: img2
+    image: img2,
   },
 ];
 
-
-const ServicesSection = () => {
+const Services = () => {
   const slider = useRef(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -53,17 +52,15 @@ const ServicesSection = () => {
 
   const slideForward = () => {
     if (currentSlide < maxSlide) {
-      const next = currentSlide + 1;
-      setCurrentSlide(next);
-      updateSlider(next);
+      setCurrentSlide(currentSlide + 1);
+      updateSlider(currentSlide + 1);
     }
   };
 
   const slideBackward = () => {
     if (currentSlide > 0) {
-      const prev = currentSlide - 1;
-      setCurrentSlide(prev);
-      updateSlider(prev);
+      setCurrentSlide(currentSlide - 1);
+      updateSlider(currentSlide - 1);
     }
   };
 
@@ -94,23 +91,24 @@ const ServicesSection = () => {
             key={index}
             className="w-full sm:w-1/2 lg:w-1/3 px-3 flex-shrink-0 relative"
           >
-            <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col h-full justify-between mb-5">
-              <div className="relative">
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-5">
+              <div className="relative w-full h-60 overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-60 object-cover rounded-xl mb-4"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
                 <button className="absolute bottom-4 right-4 bg-blue-600 text-white rounded-full p-2 shadow-md">
                   <ArrowRight size={18} />
                 </button>
               </div>
-              <div className="mt-3">
-                <h3 className="text-lg font-bold text-[#232755]">
-                  {item.title}
-                </h3>
-                <p className="text-gray-700 mt-4 text-sm">{item.description}</p>
-                <button className="bg-gray-300 px-5 py-5 mt-5 rounded-2xl text-[#212ea0]">{item.icon}</button>
+
+              <div className="p-4 bg-white -mt-4 rounded-b-2xl">
+                <h3 className="text-lg font-bold text-[#232755]">{item.title}</h3>
+                <p className="text-gray-700 mt-2 text-sm">{item.description}</p>
+                <button className="bg-gray-300 px-5 py-2 mt-3 rounded-2xl text-[#212ea0]">
+                  {item.icon}
+                </button>
               </div>
             </div>
           </div>
@@ -125,6 +123,7 @@ const ServicesSection = () => {
           <ArrowLeft size={18} />
         </button>
       </div>
+
       <div className="absolute top-1/2 -translate-y-1/2 right-6 z-10">
         <button
           onClick={slideForward}
@@ -137,4 +136,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default Services;
