@@ -23,18 +23,18 @@ const About = () => {
 
       <section className="m-10 flex flex-col md:flex-row px-5 py-7 gap-10">
   <div className="md:w-2/5">
-    <p className="font-medium text-2xl text-[#f7931e] mb-5">/About Us/</p>
-    <h2 className="font-bold text-4xl md:text-5xl text-[#232755]">
-      Top-quality craftsmanship with hands-on care tried and true.
+    <p className="font-medium text-2xl text-[#f7931e] mb-5">INSTANT MOT CLASS 4 & 7</p>
+    <h2 className="font-bold text-3xl md:text-5xl text-[#232755]">
+      MOT only £50.00! - Cheapest in Exeter £25 OFF For a full  service Phone for details Now
     </h2>
   </div>
 
-  <div className="md:w-3/5 text-lg md:text-2xl text-[#232755]">
+  <div className="md:w-3/5 text-lg md:text-2xl text-[#232755] mt-4">
     <p className="mb-4">
-      We experiencing unusual vibration or poor handling while driving or have low type threads and other problems, it’s time to get your car tires checked. Maintaining and repairing electric cars is slightly different car services to ensure it performs optimally
+      At Instant MOT, we go beyond just MOT testing – we are your one-stop destination for all your vehicle's repairs and maintenance needs. 
     </p>
     <p>
-      We use the most reliable methods to locate issues and correct them to ensure your car is in top condition also check the lights and system
+      Our dedicated team boasts many years of experience in the car repair industry, and we take pride in delivering the best customer service to every individual who trusts us with their vehicle.
     </p>
   </div>
 </section>
