@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../Component/Hero';
 import Profession from '../Component/Profession';
 import Services from '../Component/Services';
-import ChooseUs from '../Component/chooseUs';
+import ChooseUs from '../Component/ChooseUs';
 import Story from '../Component/Story';
 import Counter from '../Component/Counter';
 import Testimonial from '../Component/Testimonial';
