@@ -16,7 +16,7 @@ const About = () => {
         
               <div className="relative z-10 px-4 sm:px-8 md:px-16">
                 <h1 className="text-white font-bold text-4xl sm:text-6xl lg:text-8xl text-center">
-                  Our Service
+                  About us
                 </h1>
               </div>
             </div>
