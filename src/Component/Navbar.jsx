@@ -33,7 +33,6 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between">
-
         <div className="flex items-center gap-2">
           <span className="text-2xl font-bold text-[#232755]">
             Instant<span className="text-[#f7931e]">Mot</span>
@@ -46,9 +45,9 @@ const Navbar = () => {
               key={link.name}
               className="flex items-center gap-2 text-base font-semibold text-[#232755]"
             >
-              {idx !== 0 }
               <Link
                 to={link.path}
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className={`hover:text-blue-600 ${
                   location.pathname === link.path ? 'text-blue-600' : 'text-black'
                 }`}
@@ -83,7 +82,10 @@ const Navbar = () => {
               >
                 <Link
                   to={link.path}
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`${
                     location.pathname === link.path ? 'text-blue-600' : 'text-black'
                   }`}
