@@ -7,7 +7,6 @@ import Portfolio from './Pages/Portfolio'
 import Services from './Pages/Services'
 import Navbar from './Component/Navbar'
 import Contact from './Pages/Contact'
-import Quotes from './Pages/Quotes'
 import Footer from './Component/Footer'
 
 const App = () => {
@@ -24,7 +23,6 @@ const App = () => {
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path='/get-quote' element={<Quotes/>} />
       </Routes>
 
       <Footer/>

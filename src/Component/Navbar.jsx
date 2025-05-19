@@ -60,7 +60,7 @@ const Navbar = () => {
         </ul>
 
         <button
-          onClick={() => navigate('/get-quote')}
+          onClick={() => navigate('/contact')}
           className="hidden lg:block border border-[#f7931e] text-[#232755] font-semibold px-6 py-2 rounded-full hover:bg-blue-50 transition cursor-pointer"
         >
           Get Quote
