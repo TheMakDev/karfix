@@ -85,7 +85,7 @@ const Footer = () => {
 
 
       <div className="text-center text-xs mt-10 text-black bg-white py-4 px-4 rounded-t-3xl">
-        © 2025 instantmot. All rights reserved.
+        © 2025 instantmot. Powered By PeterPan IT Solutions.
       </div>
     </footer>
   );
