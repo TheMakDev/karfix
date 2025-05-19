@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <span className="text-2xl font-bold text-[#232755]">
-            Kars<span className="text-[#f7931e]">fix</span>
+            Instant<span className="text-[#f7931e]">Mot</span>
           </span>
         </div>
 

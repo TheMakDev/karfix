@@ -9,12 +9,12 @@ import './ServicesSection.css';
 const services = [
   {
     title: "Engine Service",
-    description: "Engine oil is an integral part of your car engine’s system help to maintain the temperatures of the...",
+    description: "Your car’s A/C needs to be maintained to ensure you and your passengers stay cool and comfortable when it’s hot outside. Furthermore, A/C maintenance service can help prevent expensive mechanical problems down the road. For instance, if the refrigerant level is too low, it could result in your A/C compressor not getting enough cooling or lubrication, leading to severe damageto your A/C system",
     icon: <FaTools size={24} className="text-blue-600" />,
     image: img1,
   },
   {
-    title: "Interior Cleaning",
+    title: "Wheel Alignment",
     description: "First we dry vacuum the interiors and then we use our steam cleaner along with dry foam chemicals.",
     icon: <FaPumpSoap size={24} className="text-blue-600" />,
     image: img2,
