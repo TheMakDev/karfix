@@ -46,7 +46,7 @@ const Navbar = () => {
               key={link.name}
               className="flex items-center gap-2 text-base font-semibold text-[#232755]"
             >
-              {idx !== 0 && <span className="text-[#f7931e] text-lg">•</span>}
+              {idx !== 0 }
               <Link
                 to={link.path}
                 className={`hover:text-blue-600 ${
