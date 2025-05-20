@@ -15,7 +15,7 @@ const Hero = () => {
           Exceptional service <br /> workmanship
         </h1>
         <p className="text-white font-bold text-base sm:text-xl md:text-2xl mt-6 sm:mt-8">
-           we are professional mechanic company offering expert vehicle repairt and maintenance service
+           we are professional mechanic company offering expert vehicle repair and maintenance service
         </p>
         <button className="bg-[#232755] px-6 py-3 sm:px-8 sm:py-4 text-white rounded-full mt-6 sm:mt-8 font-semibold text-base sm:text-xl">
           Our service
