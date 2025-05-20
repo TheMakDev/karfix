@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
         <ul className="hidden lg:flex items-center gap-6">
-          {navLinks.map((link, idx) => (
+          {navLinks.map((link) => (
             <li
               key={link.name}
               className="flex items-center gap-2 text-base font-semibold text-[#232755]"
